@@ -10,10 +10,10 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.seekvisualartist.com/"),
+    metadataBase: new URL("https://anusthan-singh.vercel.app/"),
     title: "Anusthan Singh",
     description:
-    "Hobby Designer and Software Engineer, currently at Stralto Global. Focused on immersive experiences, studying in KIIT, India.",
+    "Hobby Designer and Software Engineer, currently at Stralto Global. Focused on immersive experiences, studying in KIIT University, India.",
     generator: "Next.js",
     applicationName: "Anusthan Singh",
     keywords: [
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
         title: "Anusthan Singh",
         description:
       "Hobby Designer and Software Engineer, currently at Stralto Global. Focused on immersive experiences, studying in KIIT, India.",
-        url: "https://www.seekvisualartist.com/",
-        siteName: "www.seekvisualartist.com",
+        url: "https://anusthan-singh.vercel.app/",
+        siteName: "https://anusthan-singh.vercel.app/",
         images: [
             {
                 url: "./public/metadata.jpg",
