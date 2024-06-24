@@ -21,12 +21,15 @@ const Contact = () => {
                 <div
                     className={`flex flex-col items-start justify-center ${spaceGrotesk.className} relative w-full sm:items-center lg:max-w-[1440px] `}
                 >
-                    <AnimatedWords
+                    <div className="text-[100px] sm:text-[150px] md:text-[200px] lg:text-[250px] xl:text-[300px] 2xl:text-[350px] font-extrabold uppercase text-[#e4ded7] leading-[0.8] tracking-tighter">
+    Contact
+                    </div>
+                    {/* <AnimatedWords
                         title={"contact"}
                         style={
-                            "flex max-w-[400px] flex-col items-start text-left text-[100px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[150px] md:text-[150px] lg:text-center lg:text-[120px] xl:text-[450px]"
+                            "flex max-w-[400px] flex-col items-start text-left text-[60px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[90px] md:text-[90px] lg:text-center lg:text-[72px] xl:text-[270px]"
                         }
-                    />
+                    /> */}
                 </div>
 
                 <div className="mt-20 flex w-full flex-col items-end justify-center gap-16 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-12 lg:max-w-[1440px]">

@@ -2,10 +2,11 @@ import React from "react";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
-import { SiTailwindcss,  SiCplusplus, SiFigma, SiGit,
+import {
+    SiTailwindcss, SiCplusplus, SiFigma, SiGit,
     SiGithub,
     SiMysql, SiBootstrap,
-    SiYolo, SiJavascript, 
+    SiYolo, SiJavascript,
     SiOpenai, SiOpencv, SiReact, SiGmail, SiTypescript, SiWebstorm, SiHtml5, SiPython
     , SiLinkedin, SiInstagram, SiCodepen
 } from "react-icons/si";
@@ -34,44 +35,53 @@ const Tools = () => {
                     charSpace={"mr-[0.001em]"}
                 />
 
-                <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-6">
+                <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1400px] lg:flex-row lg:gap-6">
                     <div className="mb-2 flex w-[100%] flex-col gap-1 text-[18px] font-medium leading-relaxed tracking-wide text-[#e4ded7] md:mb-4 md:gap-2 md:text-[20px] md:leading-relaxed lg:mb-6 lg:max-w-[90%] lg:text-[24px] ">
                         <AnimatedBody text="STRALTO GLOBAL - [Sept’23- Present]" />
-                        <AnimatedBody delay={0.2} text="(Position: React JS and ML Intern):" />
+                        <AnimatedBody delay={0.2} text="(Position: React JS and ML Intern / Developer Intern):" />
                         <AnimatedBody
                             delay={0.1}
-                            text=" • Developed pilot models for threat detection in Project Sentinel. Achieved threat detection with an alert sent to the admin in less than 1 minute."
+                            text=" • Contributed in development of multiple level service applications for the Land Registration System (Civic Plan) to enable transparent
+efficient platform that assists local and state governments in India."
                         />
                         <AnimatedBody
                             delay={0.1}
-                            text="• Spearheaded the front-end development of the 'Civic Plan,' a large-scale application project."
+                            text="• Designed responsive pages and implemented scalable APIs and developed reusable components to enhance efficiency and reduced
+re-work by 20% and real time rendering for all pages using React Functions and Node JS, and other Azure cloud storage technologies
+that can handle multiple file requests concurrently."
                         />
                         <AnimatedBody
                             delay={0.1}
-                            text="• Utilized Python, Machine Learning, Yolov models, React JS, Typescript,Figma."
+                            text="• Developed pilot models for threat detection, focusing on fire, Weapon detection and people counting systems for project sentinel that
+used for security with AI-powered computer vision to safeguard private premises."
+                        />
+                        <AnimatedBody
+                            delay={0.1}
+                            text="• Utilized the latest technologies including React JS(TSX), Bootstrap,
+Node JS, MySQL, Azure, Postman and Figma, Python, Open CV, and Yolo Models."
                         />
                     </div>
                 </div>
             </div>
 
             <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
-                
 
-                <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-6">
+
+                <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1400px] lg:flex-row lg:gap-6">
                     <div className="mb-2 flex w-[100%] flex-col gap-1 text-[18px] font-medium leading-relaxed tracking-wide text-[#e4ded7] md:mb-4 md:gap-2 md:text-[20px] md:leading-relaxed lg:mb-6 lg:max-w-[90%] lg:text-[24px] ">
                         <AnimatedBody text="HighRadius Corporation - [May’23- Aug’23]" />
-                        <AnimatedBody delay={0.2} text="(Product and Engineering Intern):" />
+                        <AnimatedBody delay={0.2} text="(Product Core Intern):" />
                         <AnimatedBody
                             delay={0.1}
                             text="• Developed a B2B Application using machine learning to efficiently filter and process CSV data, Contributed to a 48% increase in application efficiency from 38%"
                         />
                         <AnimatedBody
                             delay={0.1}
-                            text="• Played a key role as Core developer in platform team."
+                            text="• Played a key role as Core developer Intern in platform team."
                         />
                         <AnimatedBody
                             delay={0.1}
-                            text="• Utilized Python, Machine Learning, Java (Hibernate, XML, Regex), and React JS technologies, as well as JIRA Software"
+                            text="• Utilized Python, Machine Learning, Java Servlets, and React JS ,JIRA"
                         />
                     </div>
                 </div>
@@ -141,7 +151,7 @@ const Tools = () => {
                 />
 
                 <div className="mx-auto w-[100%] lg:max-w-[1200px] justify-center">
-                   
+
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
                         <AnimatedBody delay={0.2} text="Social Media" />
                         <div>
@@ -151,22 +161,22 @@ const Tools = () => {
                                 </a>
                                 <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                                     <SiGithub size={50} />
-                                </a> 
+                                </a>
                                 <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
                                     <SiLinkedin size={50} />
-                                </a> 
+                                </a>
                                 <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
                                     <SiInstagram size={50} />
                                 </a>
 
-                                
+
                             </AnimatedTools>
                         </div>
                     </div>
-                    
+
                 </div>
 
-            
+
 
 
             </div>

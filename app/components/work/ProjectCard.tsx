@@ -22,7 +22,7 @@ const ProjectCard = ({
 }: ProjectProps) => {
     return (
         <motion.div
-            className={`relative bg-cover bg-no-repeat bg-center z-10 h-[550px] w-full items-stretch justify-center py-0 sm:h-[700px] sm:w-[100%] md:h-[650px] md:w-[100%] lg:h-[500px]`}
+            className={`relative bg-cover bg-no-repeat bg-center z-10 h-[400px] w-full items-stretch justify-center py-0 sm:h-[500px] sm:w-[100%] md:h-[450px] md:w-[100%] lg:h-[520px]`}
             initial="initial"
             animate="animate"
         >
@@ -58,26 +58,29 @@ const ProjectCard = ({
                                 href={github}
                                 target="_blank"
                                 aria-label="Open GitHub Repository"
-                                className="rounded-full w-[20px] bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[65px] lg:text-[28px]"
+                                className="flex items-center justify-center rounded-full bg-white p-2 aspect-square w-[40px] md:w-[50px] lg:w-[65px] text-[20px] md:text-[24px] lg:text-[28px]"
                                 data-blobity
                                 data-blobity-radius="35"
                                 data-blobity-offset-x="4"
                                 data-blobity-offset-y="4"
-                                data-blobity-magnetic="false">
-                                <SiGithub/>
+                                data-blobity-magnetic="false"
+                            >
+                                <SiGithub />
                             </Link>
                             <Link
                                 href={demo}
                                 target="_blank"
-                                aria-label="Open Live Demo"
-                                className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[65px] lg:text-[28px]"
+                                aria-label="Open GitHub Repository"
+                                className="flex items-center justify-center rounded-full bg-white p-2 aspect-square w-[40px] md:w-[50px] lg:w-[65px] text-[20px] md:text-[24px] lg:text-[28px]"
                                 data-blobity
                                 data-blobity-radius="35"
                                 data-blobity-offset-x="4"
                                 data-blobity-offset-y="4"
-                                data-blobity-magnetic="false">
+                                data-blobity-magnetic="false"
+                            >
                                 <BsLink45Deg/>
                             </Link>
+
                         </>
                     ) : (
                         <div></div>
