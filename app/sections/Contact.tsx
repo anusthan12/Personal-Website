@@ -21,8 +21,8 @@ const Contact = () => {
                 <div
                     className={`flex flex-col items-start justify-center ${spaceGrotesk.className} relative w-full sm:items-center lg:max-w-[1440px] `}
                 >
-                    <div className="text-[100px] sm:text-[150px] md:text-[200px] lg:text-[250px] xl:text-[300px] 2xl:text-[350px] font-extrabold uppercase text-[#e4ded7] leading-[0.8] tracking-tighter">
-    Contact
+                    <div className="text-[80px] sm:text-[120px] md:text-[160px] lg:text-[200px] xl:text-[240px] 2xl:text-[280px] font-extrabold uppercase text-[#e4ded7] leading-[0.8] tracking-tighter mr-10">
+                    Contact
                     </div>
                     {/* <AnimatedWords
                         title={"contact"}
