@@ -75,7 +75,7 @@ export const projects = [
     
     {
         id: 2,
-        name: "Emotion-based Music Player System",
+        name: "Emotify",
         description: "Emotion-Based Music Player that scans your mood using deep learning and set music playback ",
         technologies: [SiOpencv, SiKeras, SiNumpy, SiReact, SiVercel],
         techNames: ["OpenCV", "Keras", "NumPy", "React", "Vercel"],
@@ -211,7 +211,7 @@ export const projects = [
         id: 10,
         name: "Conference paper",
         description:
-            "Conference paper titled  Optimizing Resource Efficiency in Smart Greenhouses through IoT  to IEEE accepted slated for publication in IEEE Xplore by July 2024.[eCF Paper Id: INCET2024-417]",
+            "A Conference paper titled  `Optimizing Resource Efficiency in Smart Greenhouses through IoT` submitted to IEEE accepted slated for publication in IEEE Xplore by July 2024.",
         technologies: [ ],
         techNames: [  ],
         techLinks: [],
