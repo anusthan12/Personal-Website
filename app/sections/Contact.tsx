@@ -68,7 +68,7 @@ const Contact = () => {
                             />
                         </Link>
                         <Link
-                            href="www.linkedin.com/in/anusthan-singh"
+                            href="www.linkedin.com/in/anusthan12"
                             target="_blank"
                             aria-label="View Linkedin Profile"
                         >
