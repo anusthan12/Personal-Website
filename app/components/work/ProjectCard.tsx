@@ -103,7 +103,7 @@ const ProjectCard = ({
                     <AnimatedBody
                         text={description}
                         className={
-                            "mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] "
+                            "mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] mr-3"
                         }
                     />
                     <div className="mt-9 mb-9 grid grid-cols-5 gap-5">
