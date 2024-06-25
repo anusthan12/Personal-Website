@@ -117,7 +117,7 @@ export const projects = [
     },
     {
         id: 4,
-        name: "Nike Clone for Hacktoberfest",
+        name: "Nike Clone",
         description: "A Nike landing page clone created for Hacktoberfest, demonstrating front-end development skills.",
         technologies: [SiHtml5, SiCss3, SiJavascript],
         techNames: ["HTML", "CSS", "JavaScript"],
