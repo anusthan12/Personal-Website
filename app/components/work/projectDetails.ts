@@ -41,16 +41,20 @@ export type ProjectProps = {
 
 export const projects = [
     {
-        id: 0,
-        name: "Aurora: Personal Chat GPT",
-        description:
-            "Aurora is an open AI application (Inspired by ChatGPT)",
-        technologies: [SiJavascript, SiCss3, SiNodedotjs,SiOpenai ],
-        techNames: ["JavaScript", "Vanilla CSS", "Node JS", "OpenAI"],
-        techLinks: ["https://www.javascript.com/", "https://vanillacss.com/", "https://nodejs.org/en/" , "https://openai/en"],
-        github: "https://github.com/anusthan12/Aurora",
-        demo: "https://www.youtube.com/watch?v=lxW08dgQQE4&t=1s",
-        image: "/projects/aurora.jpg",
+        id: 1,
+        name: "Unseen AI",
+        description: "A software tool designed to bypass AI detection of text and paragraphs.",
+        technologies: [SiReact, SiTypescript, SiSass, SiHtml5],
+        techNames: ["React", "TypeScript", "SCSS", "HTML"],
+        techLinks: [
+            "https://reactjs.org/",
+            "https://www.typescriptlang.org/",
+            "https://sass-lang.com/",
+            "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        ],
+        github: "https://github.com/anusthan12/Unseen-AI",
+        demo: "https://unseen-ai.vercel.app/",
+        image: "/projects/unseen.jpg",  // You'll need to add an appropriate image
         available: true,
     },
     {
@@ -72,7 +76,7 @@ export const projects = [
     {
         id: 2,
         name: "Emotion-based Music Player System",
-        description: "Emotion-Based Music Player that scans your mood using deep learning, has its own multiple music player, and servers",
+        description: "Emotion-Based Music Player that scans your mood using deep learning and set music playback ",
         technologies: [SiOpencv, SiKeras, SiNumpy, SiReact, SiVercel],
         techNames: ["OpenCV", "Keras", "NumPy", "React", "Vercel"],
         techLinks: [
@@ -178,21 +182,18 @@ export const projects = [
     },
     {
         id: 8,
-        name: "Unseen AI",
-        description: "A software tool designed to bypass AI detection of text and paragraphs.",
-        technologies: [SiReact, SiTypescript, SiSass, SiHtml5],
-        techNames: ["React", "TypeScript", "SCSS", "HTML"],
-        techLinks: [
-            "https://reactjs.org/",
-            "https://www.typescriptlang.org/",
-            "https://sass-lang.com/",
-            "https://developer.mozilla.org/en-US/docs/Web/HTML"
-        ],
-        github: "https://github.com/anusthan12/Unseen-AI",
-        demo: "https://unseen-ai.vercel.app/",
-        image: "/projects/unseen.jpg",  // You'll need to add an appropriate image
+        name: "Aurora: Personal Chat GPT",
+        description:
+            "Aurora is an open AI application (Inspired by ChatGPT)",
+        technologies: [SiJavascript, SiCss3, SiNodedotjs,SiOpenai ],
+        techNames: ["JavaScript", "Vanilla CSS", "Node JS", "OpenAI"],
+        techLinks: ["https://www.javascript.com/", "https://vanillacss.com/", "https://nodejs.org/en/" , "https://openai/en"],
+        github: "https://github.com/anusthan12/Aurora",
+        demo: "https://www.youtube.com/watch?v=lxW08dgQQE4&t=1s",
+        image: "/projects/aurora.jpg",
         available: true,
-    },
+    }
+    ,
     {
         id: 9,
         name: "Published A Patent",
@@ -208,9 +209,9 @@ export const projects = [
     },
     {
         id: 10,
-        name: "Conference paper (IEEE)",
+        name: "Conference paper",
         description:
-            "Submitted a conference paper titled  Optimizing Resource Efficiency in Smart Greenhouses through IoT  to IEEE accepted for presentation in May 2024 and slated for publication in IEEE Xplore by July 2024.[eCF Paper Id: INCET2024-417]",
+            "Conference paper titled  Optimizing Resource Efficiency in Smart Greenhouses through IoT  to IEEE accepted slated for publication in IEEE Xplore by July 2024.[eCF Paper Id: INCET2024-417]",
         technologies: [ ],
         techNames: [  ],
         techLinks: [],
