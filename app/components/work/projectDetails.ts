@@ -118,7 +118,7 @@ export const projects = [
     {
         id: 4,
         name: "Nike Clone",
-        description: "A Nike landing page clone created for Hacktoberfest, demonstrating front-end development skills.",
+        description: "A Nike landing page clone.",
         technologies: [SiHtml5, SiCss3, SiJavascript],
         techNames: ["HTML", "CSS", "JavaScript"],
         techLinks: [
@@ -134,7 +134,7 @@ export const projects = [
     {
         id: 5,
         name: "QR Code Generator",
-        description: "A web application that generates QR codes using HTML, CSS, JavaScript, and the QRServer API.",
+        description: "A web application that generates QR codes using QRServer API.",
         technologies: [SiHtml5, SiCss3, SiJavascript],
         techNames: ["HTML", "CSS", "JavaScript", "QRServer API"],
         techLinks: [
@@ -151,7 +151,7 @@ export const projects = [
     {
         id: 6,
         name: "Weather App",
-        description: "A web-based weather application built using HTML, CSS, and JavaScript, providing real-time weather information.",
+        description: "A web-based weather application, providing real-time weather information.",
         technologies: [SiHtml5, SiCss3, SiJavascript],
         techNames: ["HTML", "CSS", "JavaScript"],
         techLinks: [
@@ -167,7 +167,7 @@ export const projects = [
     {
         id: 7,
         name: "Translator App",
-        description: "A web-based translator application supporting over 60+ languages, built using HTML, CSS, and JavaScript.",
+        description: "A web-based translator application supporting over 60+ languages.",
         technologies: [SiHtml5, SiCss3, SiJavascript],
         techNames: ["HTML", "CSS", "JavaScript"],
         techLinks: [
