@@ -209,9 +209,9 @@ export const projects = [
     },
     {
         id: 10,
-        name: "Conference paper",
+        name: "Conference paper(IEEE)",
         description:
-            "A Conference paper titled `Optimizing Resource Efficiency in Smart Greenhouses through IoT` submitted to IEEE accepted slated for publication in IEEE Xplore by July 2024.",
+            "Conference paper `Optimizing Resource Efficiency in Smart Greenhouses through IoT` slated for publication in IEEE Xplore by July 2024.",
         technologies: [ ],
         techNames: [  ],
         techLinks: [],
