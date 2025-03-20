@@ -56,8 +56,7 @@ export const projects = [
         demo: "https://unseen-ai.vercel.app/",
         image: "/projects/unseen.jpg",  // You'll need to add an appropriate image
         available: true,
-    }
-    ,
+    },
     {
         id: 1,
         
