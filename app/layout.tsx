@@ -1,7 +1,9 @@
+import Head from 'next/head';
 import "./globals.css";
 import React, { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "next/font/google";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const syne = Syne({
     subsets: ["latin"],
@@ -11,22 +13,21 @@ const syne = Syne({
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://anusthan-singh.vercel.app/"),
-    title: "Anusthan Singh",
+    title: "Anusthan Singh | Full-Stack Developer & Enterprise Solutions Specialist",
     description:
-    "Hobby Designer and Software Engineer, currently at Stralto Global. Focused on immersive experiences, studying in KIIT University, India.",
+    "Portfolio of Anusthan Singh - Full-stack developer specializing in enterprise solutions with expertise in React, Next.js, and modern web technologies.",
     generator: "Next.js",
-    applicationName: "Anusthan Singh",
+    applicationName: "Anusthan Singh Portfolio",
     keywords: [
+        "anusthan singh",
         "Anusthan Singh",
         "Anusthan",
         "anusthan12",
         "anusthan_12",
-        "anusthan singh",
         "developer",
         "freelance developer",
         "frontend",
         "Reactjs",
-        "Machine Learning",
         "react",
         "frontend developer",
         "frontend engineer",
@@ -43,20 +44,30 @@ export const metadata: Metadata = {
         "creative engineer portfolio",
         "software developer portfolio",
         "frontend engineer portfolio",
+        "full-stack developer",
+        "enterprise solutions developer",
+        "web developer India",
+        "hire Anusthan Singh",
+        "Anusthan Singh developer",
+        "Anusthan Singh portfolio",
     ],
+    alternates: {
+        canonical: "https://anusthan-singh.vercel.app/",
+    },
+    authors: [{ name: "Anusthan Singh" }],
     colorScheme: "dark",
     openGraph: {
-        title: "Anusthan Singh",
+        title: "Anusthan Singh | Full-Stack Developer & Enterprise Solutions Specialist",
         description:
-      "Hobby Designer and Software Engineer, currently at Stralto Global. Focused on immersive experiences, studying in KIIT, India.",
+        "Portfolio of Anusthan Singh - Full-stack developer specializing in enterprise solutions with expertise in React, Next.js, and modern web technologies.",
         url: "https://anusthan-singh.vercel.app/",
-        siteName: "https://anusthan-singh.vercel.app/",
+        siteName: "Anusthan Singh Portfolio",
         images: [
             {
-                url: "./public/metadata.jpg",
+                url: "/metadata.jpg", // Fixed path
                 width: 1200,
                 height: 630,
-                alt: "Anusthan Singh",
+                alt: "Anusthan Singh - Full-Stack Developer",
             },
         ],
         locale: "en-US",
@@ -64,12 +75,12 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Anusthan Singh",
+        title: "Anusthan Singh | Full-Stack Developer",
         description:
-      "Hobby Designer and Software Engineer, currently at Stralto Global. Focused on immersive experiences, studying in KIIT, India.",
-        creator: "SeekVFX",
+        "Portfolio of Anusthan Singh - Full-stack developer specializing in enterprise solutions with expertise in React, Next.js, and modern web technologies.",
+        creator: "@SeekVFX",
         creatorId: "0000000000",
-        images: ["./public/metadata.jpg"],
+        images: ["/metadata.jpg"], // Fixed path
     },
     robots: {
         index: true,
@@ -77,27 +88,72 @@ export const metadata: Metadata = {
         nocache: false,
         googleBot: {
             index: true,
-            follow: false,
-            noimageindex: true,
+            follow: true, // Changed to true
+            noimageindex: false, // Changed to false to allow image indexing
             "max-video-preview": -1,
             "max-image-preview": "large",
             "max-snippet": -1,
         },
     },
     category: "technology",
+    verification: {
+        google: "google88d8535edf3dfaa8", // Add your Google verification code if you have one
+    },
 };
 
 type RootLayoutProps = {
   children: ReactNode;
 };
 
+// This goes in your RootLayout.js file, inside the <head> section
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="en">
+            <Head>
+                <link rel="icon" href="/favicon.ico" sizes="any" />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+                <meta name="google-site-verification" content="google88d8535edf3dfaa8" />
+                
+                {/* JSON-LD structured data for Person */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "Person",
+                            "name": "Anusthan Singh",
+                            "url": "https://anusthan-singh.vercel.app/",
+                            "image": "https://anusthan-singh.vercel.app/metadata.jpg",
+                            "sameAs": [
+                                // Add your social media URLs here
+                                "https://github.com/anusthan12",
+                                "https://www.linkedin.com/in/anusthan12/", // Replace with your actual GitHub
+                                "https://www.instagram.com/anusthan_12/" // Replace with your actual LinkedIn
+                            ],
+                            "jobTitle": "Full-Stack Developer & Enterprise Solutions Specialist",
+                            "worksFor": {
+                                "@type": "Quality Bit Solutions",
+                                "name": "Developer" // Update this if you work for a company
+                            },
+                            "description": "Full-stack developer specializing in enterprise solutions with expertise in React, Next.js, and modern web technologies.",
+                            "knowsAbout": [
+                                "React",
+                                "Next.js",
+                                "JavaScript",
+                                "TypeScript",
+                                "Full-Stack Development",
+                                "Enterprise Solutions",
+                                "Web Development"
+                            ]
+                        })
+                    }}
+                />
+            </Head>
             <body
                 className={`${syne.className} scroll-smooth scrollbar-none scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
             >
                 {children}
+                <SpeedInsights />
             </body>
         </html>
     );
