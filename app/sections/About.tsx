@@ -21,16 +21,16 @@ const About = () => {
 
                 <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-                        <AnimatedBody text="Ciao, I'm Anusthan Singh, a developer with a passion for crafting software and web solution. I excel in experimenting with emerging technologies." />
+                        <AnimatedBody text="Ciao, I'm Anusthan Singh, a passionate full-stack developer who loves turning complex ideas into real-world solutions. During my time at Stralto Global, I built GovTech platforms implemented by local governments and a temple management system helping thousands of pilgrims. Our security upgrades and architectural improvements boosted efficiency by nearly 30%" />
 
                         <AnimatedBody
                             delay={0.1}
-                            text="I actively contribute to the community, recognizing the importance of knowledge-sharing. My journey in the digital sphere has been distinguished by a strong interest in web development technology and artificial intelligence. Join me on this thrilling journey as I turn zeros and ones into captivating ideas, embracing the harmonious combination of creativity and technology."
+                            text="What I'm most proud of is helping others grow. I've mentored junior developers, created documentation that streamlined onboarding, and was recognized as a `Rising Star` with opportunities to participate in leadership workshops with company executives. These experiences taught me that technical skills and people skills go hand in hand.!"
                         />
 
                         <AnimatedBody
                             delay={0.2}
-                            text="A seasoned developer with 52+ repositories and 2,240+ profile views on GitHub"
+                            text="On the academic front, I published an IEEE paper on IoT optimization and filed a patent for a water management system while graduating from KIIT University with an 8.69 CGPA. I'm always eager to take on new challenges that combine innovation with real business impact!"
                         />
                     </div>
                     
