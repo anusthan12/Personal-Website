@@ -8,7 +8,7 @@ import {
     SiGithub,
     SiMysql, SiBootstrap,
     SiYolo, SiJavascript,
-    SiOpenai, SiOpencv, SiClaude, SiReact, SiGmail, SiTypescript, SiWebstorm, SiHtml5, SiPython
+    SiOpenai, SiOpencv, SiReact, SiGmail, SiTypescript, SiWebstorm, SiHtml5, SiPython
     , SiLinkedin, SiInstagram, SiCodepen, SiNodedotjs, SiSwagger, SiGitlab, SiJira
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
