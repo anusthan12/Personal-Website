@@ -42,7 +42,7 @@ const About = () => {
 
 
             <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px] ">
-                <a href="https://drive.google.com/file/d/1STsvWsVhFE_rZph2V6CAix7n29s73Txz/view?usp=sharing" download target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1WIRlTy8NTylBJG5paZjNk5FmbQHw3tp3/view?usp=sharing" download target="_blank" rel="noreferrer">
         Download Resume
                 </a>
             </div>
