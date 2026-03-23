@@ -93,5 +93,5 @@ Open to discussions regarding top-tier engineering roles, ambitious startup coll
 ---
 
 <div align="center">
-  <p>Designed and Engineered with precision by Anusthan Singh. © 2026</p>
+  <p>Designed and Engineered with precision by Anusthan Singh. © 2025</p>
 </div>
