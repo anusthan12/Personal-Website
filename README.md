@@ -19,7 +19,7 @@ Welcome to the source code for the personal portfolio website of **Anusthan Sing
 
 ## 🌐 Live Experience
 
-**Experience the live site:** [anusthan.com (Placeholder)](#)
+**Experience the live site:** [anusthan-singh.vercel.app](https://anusthan-singh.vercel.app/)
 
 *For optimal viewing, explore on a modern desktop browser to experience the full physics-based animations and spatial interactions.*
 
