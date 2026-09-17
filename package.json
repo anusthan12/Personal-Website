@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "build:dev": "NODE_ENV=production BRANCH=dev next build",
     "start": "next start",
     "export": "next export",
