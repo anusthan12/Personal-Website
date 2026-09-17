@@ -1,7 +1,10 @@
 {
-  "name": "www.seekvisualartist.com",
+  "name": "anusthan-singh",
   "version": "5.0.0",
   "private": true,
+    "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "NODE_ENV=production next build",
