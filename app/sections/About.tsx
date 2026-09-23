@@ -11,7 +11,7 @@ const About = () => {
         >
             <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
                 <AnimatedTitle
-                    text={"ALL IT STARTS WITH A DREAM."}
+                    text={"Hi, I’m Anusthan Singh."}
                     className={
                         "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
                     }
@@ -21,16 +21,31 @@ const About = () => {
 
                 <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-                        <AnimatedBody text="Ciao, I'm Anusthan Singh, a passionate full-stack developer who loves turning complex ideas into real-world solutions. During my time at Stralto Global, I built GovTech platforms implemented by local governments and a temple management system helping thousands of pilgrims. Our security upgrades and architectural improvements boosted efficiency by nearly 30%" />
+                        <AnimatedBody text="Technology. Business Operations. International Management." />
 
                         <AnimatedBody
                             delay={0.1}
-                            text="What I'm most proud of is helping others grow. I've mentored junior developers, created documentation that streamlined onboarding, and was recognized as a `Rising Star` with opportunities to participate in leadership workshops with company executives. These experiences taught me that technical skills and people skills go hand in hand.!"
+                            text="I’m a technology and business professional with experience across software development, IoT, and business operations. I’m currently pursuing a Master’s in International Management at ESADE Business School in Barcelona, building on my engineering background to move toward Tech-Driven Business Leadership."
                         />
 
                         <AnimatedBody
                             delay={0.2}
-                            text="On the academic front, I published an IEEE paper on IoT optimization and filed a patent for a water management system while graduating from KIIT University with an 8.69 CGPA. I'm always eager to take on new challenges that combine innovation with real business impact!"
+                            text="My work sits at the intersection of technology and business, from building digital products and smart infrastructure solutions to improving operations, supply chains, and business processes."
+                        />
+
+                        <AnimatedBody
+                            delay={0.3}
+                            text="Now: ESADE Business School · MSc in International Management '27"
+                        />
+
+                        <AnimatedBody
+                            delay={0.4}
+                            text="Previously: Quality Bit Solutions · Stralto Global · HighRadius"
+                        />
+
+                        <AnimatedBody
+                            delay={0.5}
+                            text="Alumni: KIIT · B.Tech in Computer Science & Engineering '24"
                         />
                     </div>
                     
