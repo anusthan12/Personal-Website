@@ -147,13 +147,12 @@ const Tools = () => {
                             <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
                                 <SiLinkedin size={40} />
                             </a>
-                                                    <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
+                            <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
                                 <SiInstagram size={40} />
                             </a>
                             <a href={codepenUrl} target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
                                 <SiCodepen size={40} />
                             </a>
-
                         </div>
                     </div>
                 </div>
