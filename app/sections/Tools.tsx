@@ -54,7 +54,7 @@ const Tools = () => {
                         <AnimatedBody delay={0.2} text="• Junior React Developer" />
                         <AnimatedBody
                             delay={0.25}
-                            text="Contributed to CivicPlan and Parikrama, two technology products serving public-sector and community needs. I worked across mobile applications, administration systems, mapping, security, and workflow improvements, helping make complex processes faster and easier to manage."
+                            text="Contributed to CivicPlan and Parikrama, two technology products serving public-sector and community needs. I worked across mobile applications, administration systems, mapping, security, and workflow improvements, while also mentoring three interns in full-stack development and creating documentation that reduced onboarding time by 70%. I received the Rising Star award and participated in leadership development with C-suite executives."
                         />
 
                         <AnimatedBody delay={0.3} text="• Developer Intern" />
@@ -80,32 +80,6 @@ const Tools = () => {
                         <AnimatedBody
                             delay={0.2}
                             text="Built a data-processing solution for B2B workflows, combining software development with machine-learning techniques to improve efficiency and reduce manual work."
-                        />
-                    </div>
-                </div>
-            </div>
-
-            <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
-                <AnimatedTitle
-                    text="Leadership Experience"
-                    className="mt-10 mb-4 text-left text-[32px] font-bold tracking-tighter text-[#e4ded7] sm:text-[36px] md:mb-6 md:text-[48px] lg:text-[64px]"
-                    wordSpace="mr-[10px]"
-                    charSpace="mr-[0.001em]"
-                />
-
-                <div className="mx-auto flex w-full flex-col lg:max-w-[1400px] lg:flex-row lg:gap-6">
-                    <div className="mb-2 flex w-full flex-col gap-1 text-[14px] font-medium text-[#e4ded7] md:mb-4 md:gap-2 md:text-[16px] lg:mb-6 lg:max-w-[90%] lg:text-[18px]">
-                        <AnimatedBody
-                            delay={0.1}
-                            text="• Technical Mentor, Stralto Global: Trained 3 interns in full-stack development with 100% conversion to paid roles; created documentation reducing onboarding time by 80%"
-                        />
-                        <AnimatedBody
-                            delay={0.2}
-                            text="• Recognition: Received 'Rising Star' award (September 2024); participated in leadership development with C-suite executives"
-                        />
-                        <AnimatedBody
-                            delay={0.3}
-                            text="• Project Contribution: 30% contribution to Parikrama development team; 25% overall project contribution in CivicPlan"
                         />
                     </div>
                 </div>
