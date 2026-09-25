@@ -39,7 +39,7 @@ export const ngoWork: NgoProps[] = [
     },
     {
         id: 3,
-        name: "Friends of National Teachers Academy",
+        name: "Friends of NTA",
         role: "Volunteer Consultant",
         description:
             "Helped optimise a fundraising strategy that supported a $25K annual jog-a-thon for Chicago public schools. Introduced a zero-fee donation platform and developed practical Google Ad Grants documentation to simplify digital fundraising.",
