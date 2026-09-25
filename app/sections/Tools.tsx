@@ -8,7 +8,7 @@ import AnimatedTools from "../animations/AnimatedTools.tsx";
 const Tools = () => {
     return (
         <section
-            className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-12 pb-24 md:pt-16 md:pb-32 lg:pt-16 lg:pb-40"
+            className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-12 pb-12 md:pt-16 md:pb-16 lg:pt-16 lg:pb-20"
             id="tools"
         >
             <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
@@ -79,7 +79,7 @@ const Tools = () => {
                     charSpace="mr-[0.001em]"
                 />
                 <div className="mx-auto w-full lg:max-w-[1200px] justify-center">
-                    <div className="mb-10 flex w-full flex-col gap-4 text-[14px] font-medium text-[#e4ded7] md:mb-16 md:gap-3 md:text-[18px] lg:mb-16 lg:w-full">
+                    <div className="flex w-full flex-col gap-4 text-[14px] font-medium text-[#e4ded7] md:gap-3 md:text-[18px] lg:w-full">
                         <div>
                             <AnimatedBody delay={0.1} text="Technology" />
                             <AnimatedBody
