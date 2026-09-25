@@ -21,13 +21,13 @@ const Contact = () => {
                 <div
                     className={`flex flex-col items-start justify-center ${spaceGrotesk.className} relative w-full sm:items-center lg:max-w-[1440px] `}
                 >
-                    <div className="text-[56px] sm:text-[80px] md:text-[100px] lg:text-[130px] xl:text-[160px] 2xl:text-[180px] font-extrabold uppercase text-[#e4ded7] leading-[0.8] tracking-tighter mr-10">
+                    <div className="text-[80px] sm:text-[120px] md:text-[160px] lg:text-[200px] xl:text-[240px] 2xl:text-[280px] font-extrabold uppercase text-[#e4ded7] leading-[0.8] tracking-tighter mr-10">
                     Contact
                     </div>
                 </div>
 
                 <div className="mt-20 flex w-full flex-col items-end justify-center gap-16 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-12 lg:max-w-[1440px]">
-                    <div className="flex w-[400px] max-w-[90%] flex-col items-end text-right text-[20px] font-semibold uppercase text-[#e4ded7] sm:w-[420px] sm:text-[26px] md:w-[380px] md:items-start md:text-left md:text-[28px] lg:w-[480px] lg:text-[32px]">
+                    <div className=" flex w-[350px] max-w-[90%] flex-col items-end text-right text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[350px] sm:text-[14px] md:w-[310px] md:items-start md:text-left md:text-[16px] lg:w-[420px] lg:text-[16px]">
                         <AnimatedBody
                             text={
                                 "Have an idea, opportunity, or something worth discussing?"
@@ -40,7 +40,7 @@ const Contact = () => {
                             href="mailto:anusthan.singh12@gmail.com?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
                             target="_blank"
                             aria-label="Send me an email"
-                            className="mt-2 flex-1 underline underline-offset-2 hover:no-underline sm:mt-3 md:mt-4 lg:mt-5"
+                            className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
                         >
                             <AnimatedBody text={"Get in touch"} className={""} />
                         </Link>
