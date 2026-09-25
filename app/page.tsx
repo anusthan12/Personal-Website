@@ -16,6 +16,7 @@ import Work from "./sections/Work";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import Tools from "./sections/Tools.tsx";
+import Ngo from "./sections/Ngo";
 
 export default function Home() {
 
@@ -71,6 +72,7 @@ export default function Home() {
                 <Hero />
                 <About />
                 <Work />
+                <Ngo />
                 <Tools />
                 { /* <Blog /> TODO: Low Priority */ }
                 <Contact />
