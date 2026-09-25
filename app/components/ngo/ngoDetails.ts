@@ -3,10 +3,10 @@ export type NgoProps = {
   name: string;
   role: string;
   description: string;
-  link: string;      // leave "" if none yet
-  linkLabel?: string; // e.g. "LinkedIn Feature", defaults to "Learn more"
-  image: string;      // path in /public, e.g. "/ngo/taproot.jpg"
-  available: boolean; // false hides the link icon (like your ProjectCard)
+  link: string;
+  linkLabel?: string;
+  image: string;
+  available: boolean;
 };
 
 export const ngoWork: NgoProps[] = [
@@ -16,10 +16,10 @@ export const ngoWork: NgoProps[] = [
     role: "Pro Bono Volunteer",
     description:
       "Supported nonprofits across San Diego, Chicago, and Copenhagen with digital strategy, fundraising systems, and website transformation. Helped teams adopt practical, low-cost digital solutions and implementation roadmaps. Featured by Taproot Foundation during National Volunteer Week.",
-    link: "", // TODO: paste Taproot / LinkedIn feature link
-    linkLabel: "National Volunteer Week Feature",
+    link: "https://lnkd.in/p/eyJwfbNd",
+    linkLabel: "National Volunteer Week Feature (LinkedIn)",
     image: "/ngo/taproot.jpg", // TODO: add image to /public/ngo/
-    available: false, // flip to true once link is added
+    available: true,
   },
   {
     id: 2,
@@ -27,9 +27,10 @@ export const ngoWork: NgoProps[] = [
     role: "Developer (Volunteer)",
     description:
       "Built a GDPR-compliant website from the ground up for an international NGO supporting children in Cairo. Worked with teams across Copenhagen and Nairobi, coordinating delivery through weekly agile check-ins.",
-    link: "", // TODO: paste Lotus Buds link
+    link: "https://lotusbuds.dk/",
+    linkLabel: "Lotus Buds",
     image: "/ngo/lotusbuds.jpg", // TODO: add image
-    available: false,
+    available: true,
   },
   {
     id: 3,
@@ -37,9 +38,10 @@ export const ngoWork: NgoProps[] = [
     role: "Volunteer Consultant",
     description:
       "Helped optimise a fundraising strategy that supported a $25K annual jog-a-thon for Chicago public schools. Introduced a zero-fee donation platform and developed practical Google Ad Grants documentation to simplify digital fundraising.",
-    link: "", // TODO: paste organisation link
+    link: "https://www.friendsofnta.org/",
+    linkLabel: "Friends of NTA",
     image: "/ngo/fnta.jpg", // TODO: add image
-    available: false,
+    available: true,
   },
   {
     id: 4,
@@ -47,8 +49,9 @@ export const ngoWork: NgoProps[] = [
     role: "Volunteer Consultant",
     description:
       "Helped an emerging San Diego nonprofit establish a practical digital marketing and outreach approach. Developed a Google Ad Grants implementation framework that made digital outreach more manageable with limited technical resources.",
-    link: "", // TODO: paste organisation link
+    link: "https://averittehouse.org/",
+    linkLabel: "Averitte House",
     image: "/ngo/averittehouse.jpg", // TODO: add image
-    available: false,
+    available: true,
   },
 ];
