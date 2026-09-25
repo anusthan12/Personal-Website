@@ -21,7 +21,7 @@ const Contact = () => {
                 <div
                     className={`flex flex-col items-start justify-center ${spaceGrotesk.className} relative w-full sm:items-center lg:max-w-[1440px] `}
                 >
-                    <div className="text-[80px] sm:text-[120px] md:text-[160px] lg:text-[200px] xl:text-[240px] 2xl:text-[280px] font-extrabold uppercase text-[#e4ded7] leading-[0.8] tracking-tighter mr-10">
+                    <div className="text-[56px] sm:text-[80px] md:text-[100px] lg:text-[130px] xl:text-[160px] 2xl:text-[180px] font-extrabold uppercase text-[#e4ded7] leading-[0.8] tracking-tighter mr-10">
                     Contact
                     </div>
                     {/* <AnimatedWords
@@ -36,7 +36,7 @@ const Contact = () => {
                     <div className=" flex w-[350px] max-w-[90%] flex-col items-end text-right text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[350px] sm:text-[14px] md:w-[310px] md:items-start md:text-left md:text-[16px] lg:w-[420px] lg:text-[16px]">
                         <AnimatedBody
                             text={
-                                "Do you have inquiries, proposals, projects, collaboration, or want to work together on something?"
+                                "Have an idea, opportunity, or something worth discussing?"
                             }
                             className={
                                 "-mb-1 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
@@ -48,11 +48,25 @@ const Contact = () => {
                             aria-label="Send me an email"
                             className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
                         >
-                            <AnimatedBody text={"Send me an email"} className={""} />
+                            <AnimatedBody text={"Get in touch"} className={""} />
                         </Link>
                     </div>
 
                     <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
+                        <Link
+                            href="mailto:anusthan.singh12@gmail.com?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+                            target="_blank"
+                            aria-label="Send me an email via Gmail"
+                        >
+                            <AnimatedTitle
+                                text={"Gmail"}
+                                className={
+                                    "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
+                                }
+                                wordSpace={"mr-[0.25em]"}
+                                charSpace={"mr-[0.01em]"}
+                            />
+                        </Link>
                         <Link
                             href="https://github.com/anusthan12"
                             target="_blank"
@@ -68,7 +82,7 @@ const Contact = () => {
                             />
                         </Link>
                         <Link
-                            href="www.linkedin.com/in/anusthan12"
+                            href="https://www.linkedin.com/in/anusthan12"
                             target="_blank"
                             aria-label="View Linkedin Profile"
                         >
