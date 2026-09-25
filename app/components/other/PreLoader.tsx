@@ -95,8 +95,6 @@ const PreLoader: React.FC = () => {
                 }}
             >
                 <span>Anusthan Singh</span>
-                <span> / </span>
-                <span>Developer</span>
                 <div className="sub hidden"></div>
             </div>
         </div>
