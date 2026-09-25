@@ -12,8 +12,7 @@ const NgoCard = ({
     name,
     role,
     description,
-    link,
-    linkLabel,
+    links,
     image,
     available,
 }: NgoProps) => {
@@ -50,7 +49,7 @@ const NgoCard = ({
                             wordSpace={"mr-[0.25em]"}
                             charSpace={"-mr-[0.01em]"}
                         />
-                        <p className="mt-1 text-[11px] font-semibold uppercase tracking-wide text-[#c9a86a] sm:text-[12px]">
+                        <p className="mt-1 text-[11px] font-semibold uppercase tracking-wide text-[#c9b8f0] sm:text-[12px]">
                             {role}
                         </p>
                         <AnimatedBody
@@ -61,23 +60,26 @@ const NgoCard = ({
                         />
                     </div>
 
-                    {/* Link icon, top right — only if available */}
-                    {available && link && (
+                    {/* Link icons, top right — only if available */}
+                    {available && links.length > 0 && (
                         <div className="absolute top-4 right-4 flex items-center justify-center gap-2 z-10">
-                            <Link
-                                href={link}
-                                target="_blank"
-                                aria-label={linkLabel || `Learn more about ${name}`}
-                                className="flex items-center justify-center rounded-full bg-white p-2 aspect-square w-[32px] md:w-[36px] lg:w-[40px] text-[16px] md:text-[18px] lg:text-[20px] text-[#0E1016] transition-transform duration-200 hover:scale-110"
-                                data-blobity
-                                data-blobity-radius="35"
-                                data-blobity-offset-x="4"
-                                data-blobity-offset-y="4"
-                                data-blobity-magnetic="false"
-                                title={linkLabel || "Learn more"}
-                            >
-                                <BsLink45Deg />
-                            </Link>
+                            {links.map((l, idx) => (
+                                <Link
+                                    key={idx}
+                                    href={l.href}
+                                    target="_blank"
+                                    aria-label={l.label}
+                                    className="flex items-center justify-center rounded-full bg-white p-2 aspect-square w-[32px] md:w-[36px] lg:w-[40px] text-[16px] md:text-[18px] lg:text-[20px] text-[#0E1016] transition-transform duration-200 hover:scale-110"
+                                    data-blobity
+                                    data-blobity-radius="35"
+                                    data-blobity-offset-x="4"
+                                    data-blobity-offset-y="4"
+                                    data-blobity-magnetic="false"
+                                    title={l.label}
+                                >
+                                    <BsLink45Deg />
+                                </Link>
+                            ))}
                         </div>
                     )}
 
