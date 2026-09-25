@@ -46,7 +46,7 @@ const Contact = () => {
                         </Link>
                     </div>
 
-                    <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
+                    <div className="flex flex-wrap justify-end gap-x-6 gap-y-3 text-[16px] font-bold text-[#e4ded7] sm:flex-nowrap sm:gap-x-14 sm:text-[24px] md:gap-x-10 md:text-[16px] lg:gap-x-20 lg:text-[28px]">
                         <Link
                             href="https://www.linkedin.com/in/anusthan12"
                             target="_blank"
@@ -93,6 +93,7 @@ const Contact = () => {
                             href="https://www.youtube.com/channel/UC7P_8Dc9Ne4TeGui6oBhN7g"
                             target="_blank"
                             aria-label="View YouTube Profile"
+                            className="hidden sm:inline-block"
                         >
                             <AnimatedTitle
                                 text={"YouTube"}
