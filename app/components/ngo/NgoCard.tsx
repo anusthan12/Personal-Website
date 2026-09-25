@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Container from "../container/Container";
 import React, { useState } from "react";
 import { BsLink45Deg } from "react-icons/bs";
+import { SiLinkedin } from "react-icons/si";
 
 const NgoCard = ({
     name,
@@ -18,6 +19,13 @@ const NgoCard = ({
 }: NgoProps) => {
     const [isHovered, setIsHovered] = useState(false);
     const [imgError, setImgError] = useState(false);
+
+    const getIcon = (href: string) => {
+        if (href.includes("linkedin") || href.includes("lnkd.in")) {
+            return <SiLinkedin />;
+        }
+        return <BsLink45Deg />;
+    };
 
     return (
         <motion.div
@@ -77,21 +85,21 @@ const NgoCard = ({
                                     data-blobity-magnetic="false"
                                     title={l.label}
                                 >
-                                    <BsLink45Deg />
+                                    {getIcon(l.href)}
                                 </Link>
                             ))}
                         </div>
                     )}
 
-                    {/* Image, bottom right — falls back to a blank panel if missing */}
-                    <div className={`absolute bottom-0 right-0 w-[50%] h-[75%] flex items-end justify-end overflow-hidden transition-all duration-300 ${isHovered ? 'scale-105' : ''}`}>
+                    {/* Image, bottom right — reduced fixed size, padded so it doesn't dominate the card */}
+                    <div className={`absolute bottom-3 right-3 w-[38%] h-[55%] md:w-[36%] md:h-[52%] flex items-end justify-end overflow-hidden transition-all duration-300 ${isHovered ? 'scale-105' : ''}`}>
                         {!imgError ? (
                             <Image
                                 src={image}
                                 alt={name}
-                                width={500}
-                                height={500}
-                                className="object-contain max-h-full"
+                                width={320}
+                                height={320}
+                                className="object-contain max-h-full max-w-full"
                                 onError={() => setImgError(true)}
                             />
                         ) : (
