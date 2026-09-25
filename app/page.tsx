@@ -72,8 +72,8 @@ export default function Home() {
                 <Hero />
                 <About />
                 <Work />
-                <Ngo />
                 <Tools />
+                <Ngo />
                 { /* <Blog /> TODO: Low Priority */ }
                 <Contact />
                 <Footer />
