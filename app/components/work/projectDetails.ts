@@ -119,72 +119,8 @@ export const projects = [
         image: "/projects/qbs.jpg",  // You'll need to add an appropriate image
         available: true,
     },
-
     {
-        id: 5,
-        name: "QR Code Generator",
-        description: "A web application that generates QR codes using QRServer API.",
-        technologies: [SiHtml5, SiCss3, SiJavascript],
-        techNames: ["HTML", "CSS", "JavaScript", "QRServer API"],
-        techLinks: [
-            "https://developer.mozilla.org/en-US/docs/Web/HTML",
-            "https://developer.mozilla.org/en-US/docs/Web/CSS",
-            "https://www.javascript.com/",
-            "https://goqr.me/api/"
-        ],
-        github: "https://github.com/anusthan12/QR_Code_Generator",
-        demo: "https://anusthan12.github.io/QR_Code_Generator/",
-        image: "/projects/qrcode.jpg",  // You'll need to add an appropriate image
-        available: true,
-    },
-    {
-        id: 6,
-        name: "Weather App",
-        description: "A web-based weather application, providing real-time weather information.",
-        technologies: [SiHtml5, SiCss3, SiJavascript],
-        techNames: ["HTML", "CSS", "JavaScript"],
-        techLinks: [
-            "https://developer.mozilla.org/en-US/docs/Web/HTML",
-            "https://developer.mozilla.org/en-US/docs/Web/CSS",
-            "https://www.javascript.com/"
-        ],
-        github: "https://github.com/anusthan12/Weatherapp",
-        demo: "https://anusthan12.github.io/Weatherapp/",
-        image: "/projects/weather.jpg",  // You'll need to add an appropriate image
-        available: true,
-    },
-    {
-        id: 7,
-        name: "Translator App",
-        description: "A web-based translator application supporting over 60+ languages.",
-        technologies: [SiHtml5, SiCss3, SiJavascript],
-        techNames: ["HTML", "CSS", "JavaScript"],
-        techLinks: [
-            "https://developer.mozilla.org/en-US/docs/Web/HTML",
-            "https://developer.mozilla.org/en-US/docs/Web/CSS",
-            "https://www.javascript.com/"
-        ],
-        github: "https://github.com/anusthan12/Translator",
-        demo: "https://anusthan12.github.io/Translator/",
-        image: "/projects/translator.jpg",  // You'll need to add an appropriate image
-        available: true,
-    },
-    {
-        id: 8,
-        name: "Aurora: Personal Chat GPT",
-        description:
-            "Aurora is an open AI application (Inspired by ChatGPT)",
-        technologies: [SiJavascript, SiCss3, SiNodedotjs,SiOpenai ],
-        techNames: ["JavaScript", "Vanilla CSS", "Node JS", "OpenAI"],
-        techLinks: ["https://www.javascript.com/", "https://vanillacss.com/", "https://nodejs.org/en/" , "https://openai/en"],
-        github: "https://github.com/anusthan12/Aurora",
-        demo: "https://www.youtube.com/watch?v=lxW08dgQQE4&t=1s",
-        image: "/projects/aurora.jpg",
-        available: true,
-    }
-    ,
-    {
-        id: 9,
+        id: 4,
         name: "Published A Patent",
         description:
             " Solution and measurement for water management and leakage detection problems using IOT (Application number 202331032194)",
@@ -197,7 +133,7 @@ export const projects = [
         available: false,
     },
     {
-        id: 10,
+        id: 5,
         name: "Conference paper(IEEE)",
         description:
             "Conference paper `Optimizing Resource Efficiency in Smart Greenhouses through IoT` slated for publication in IEEE Xplore by July 2024.",
